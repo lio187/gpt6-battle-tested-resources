@@ -1,0 +1,25 @@
+{
+  "site": "primary",
+  "title": "A practical guide to choosing an automation workflow",
+  "slug": "choose-an-automation-workflow",
+  "excerpt": "Start with one measurable process, define its boundaries and review its output before expanding.",
+  "body": "## Start with one process\n\nChoose a recurring task with clear inputs and outputs. Document when a person must review the result, then test it against real examples from your operation. Keep ownership explicit and measure errors as well as time saved.\n\nRead the [automation overview](https://example.com/automation) and [contact the team](https://example.com/contact).",
+  "language": "en",
+  "category": "automation",
+  "publishedAt": "2027-01-15T09:00:00+00:00",
+  "query": "choose automation workflow",
+  "intent": "informational",
+  "original_contribution": "A bounded decision framework with explicit human review.",
+  "cta": "/contact",
+  "sources": [],
+  "claims": [],
+  "review": {
+    "content_hash": "REPLACE_WITH_OUTPUT_OF_HASH_COMMAND",
+    "factual_support": true,
+    "original_value": true,
+    "intent_match": true,
+    "brand_accuracy": true,
+    "comparison_fairness": true,
+    "rationale": "Reviewed against the configured site, sources and content brief."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-09-07",
+  "resources": [
+    {"name":"NVIDIA SkillSpector","repository":"https://github.com/NVIDIA/SkillSpector.git","commit":"88eedca754c74260dfae4e6d6cfb293a0053c908","license":"Apache-2.0","review":"caution"},
+    {"name":"no-ai-slop","repository":"https://github.com/petergyang/no-ai-slop.git","commit":"000650b156983f5159695b441477f4e63b25dc85","license":"MIT","review":"approved"},
+    {"name":"phone-harness","repository":"https://github.com/ShawnPana/phone-harness.git","commit":"6e47f24cd1d6110e9c72dc2bfe559d2ec709e56d","license":"MIT","review":"caution-telemetry"},
+    {"name":"video-use","repository":"https://github.com/browser-use/video-use.git","commit":"9575612f066aa517354790a645fd90f9f95a743b","license":"MIT","review":"caution-external-transcription"},
+    {"name":"Comp AI CRM","repository":"https://github.com/trycompai/crm.git","commit":"6d4793dd6d7aeea91aa6a034e00b17d7408a2d08","license":"MIT","review":"manual-review-required"}
+  ]
+}

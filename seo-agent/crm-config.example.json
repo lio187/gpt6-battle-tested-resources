@@ -1,0 +1,10 @@
+{
+  "mode": "local-pilot",
+  "database": "runtime/crm.sqlite3",
+  "intake_port": 4311,
+  "crm_api_url": "http://127.0.0.1:3000",
+  "site_hosts": {
+    "primary": "example.com",
+    "academy": "example.org"
+  }
+}

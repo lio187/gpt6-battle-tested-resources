@@ -1,0 +1,44 @@
+{
+  "timezone": "Europe/Amsterdam",
+  "runtime": "runtime",
+  "handover_complete": false,
+  "publishing_enabled": false,
+  "min_impressions": 50,
+  "weekly_new_limit": 2,
+  "weekly_update_limit": 2,
+  "sites": {
+    "primary": {
+      "base_url": "https://example.com",
+      "gsc_property": "sc-domain:example.com",
+      "ga4_property": null,
+      "publisher": "disabled",
+      "payload_identity": "publisher@example.com",
+      "content_path": "/blog",
+      "language": "en",
+      "language_ready": false,
+      "conversion_path": "/contact",
+      "conversion_event": "generate_lead",
+      "focus": ["automation", "ai agents"],
+      "brands": ["example brand"],
+      "deployment_verified": false
+    },
+    "academy": {
+      "base_url": "https://example.org",
+      "gsc_property": "sc-domain:example.org",
+      "ga4_property": null,
+      "publisher": "disabled",
+      "guides_path": "/guides",
+      "site_title": "Example Academy",
+      "organization_name": "Example Organization",
+      "language": "en",
+      "language_ready": false,
+      "conversion_path": "/course",
+      "conversion_event": "generate_lead",
+      "focus": ["ai training", "automation"],
+      "brands": ["example academy"],
+      "deployment_verified": false,
+      "deploy_command": [],
+      "rollback_command": []
+    }
+  }
+}

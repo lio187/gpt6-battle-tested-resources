@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seo-operator"
+version = "1.0.0"
+description = "Evidence-backed SEO operations with safe publishing and CRM adapters"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+  "google-auth>=2.40,<3",
+  "google-auth-oauthlib>=1.2,<2",
+  "markdown-it-py>=3,<5",
+  "langdetect==1.0.9"
+]
+
+[project.scripts]
+seo-operator = "seo_operator.cli:main"
+seo-crm = "seo_operator.crm:main"
+
+[tool.setuptools.packages.find]
+include = ["seo_operator*"]

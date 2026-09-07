@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO Operator"
+  short_description: "Evidence-backed SEO audits and gated publishing"
+  default_prompt: "Use $seo-operator to audit my configured site and prioritize evidence-backed SEO work without enabling production writes."
